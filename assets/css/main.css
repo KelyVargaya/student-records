@@ -6,18 +6,22 @@ header{
 
 body{
     background-color: #f7b617;
+    font-family: 'Passion One', cursive;
 
 }
 
 #page{
     background-color: white;
     width: 90%;
-    height: 100vh;
     margin: 0 auto;
     margin-top: 1%;
+    margin-bottom: 1%;
     border-radius: 5px;
 }
 
+#contenedor-estudiantes{
+    margin-right: 1%;
+}
 img{
     margin: 3%;
 }
@@ -26,4 +30,37 @@ button{
     margin: 3%;
     width: 100%;
     
+}
+
+footer{
+  margin-top:50%;
+  border-top: 2px solid grey;
+  bottom: 0;
+  font-family: 'Courgette', cursive;
+}
+
+h2{
+    color: #f7b617;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+}
+
+#cajita{
+    padding: 2%;
+    border-radius: 5px;
+    border: 2px solid #f7b617;
+    margin: 1%;
+    display: inline-block;
+    width: 40%;
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+}
+
+.container{
+    padding-top: 2% !important;
+}
+
+h4{
+    font-size: 3.0vw;
 }
