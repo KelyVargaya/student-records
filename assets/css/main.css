@@ -1,0 +1,29 @@
+header{
+
+    background: url(../img/portadaa.jpg);
+    background-size: cover;
+}
+
+body{
+    background-color: #f7b617;
+
+}
+
+#page{
+    background-color: white;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 1%;
+    border-radius: 5px;
+}
+
+img{
+    margin: 3%;
+}
+
+button{
+    margin: 3%;
+    width: 100%;
+    
+}
