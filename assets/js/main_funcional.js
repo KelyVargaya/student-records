@@ -25,7 +25,7 @@ function agregar(){
 function mostrarAlumnas(alum){
 	if(alum){
 		$("#contenedor-estudiantes").empty();
-		$("#contenedor-estudiantes").append(`<div id=cajita><h2>${alum.nombre_alumna}</h2>
+		$("#contenedor-estudiantes").append(`<div id=cajita"><h2>${alum.nombre_alumna}</h2>
                                             <p>Puntos Tecnicos: ${alum.puntos_tecnicos}%</p>
                                             <p>Puntos HSE: ${alum.puntos_habilidades}%</p>
                                             <p>Estado: ${alum.estado}</p></div>`);
